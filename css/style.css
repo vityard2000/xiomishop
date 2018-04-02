@@ -1,0 +1,396 @@
+
+		/*массовые идентификаторы*/
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body {
+	background-image: url(../img/fon.png);
+	background-position: center;
+	min-width: 300px; 
+	max-width: 1280px;
+	box-shadow: 0 0 46px rgba(0,0,0,.2);
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+    z-index: 1;
+	height: 50px;
+	background: rgba(0,0,0,.2);
+	box-shadow: 0 3px 46px rgba(254,243,191,.14);
+	text-align:  center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.Toorder {
+	height: 50px;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 29px;
+	font-family: "RobotoSlabRegular";
+	background-color: #181818;
+	border: 1px solid rgb(255,255,255);
+	border-radius: 4px;
+	margin-top: 10px;
+	padding-bottom: 7px; 
+	
+}
+
+footer {
+	color: white;
+    font-family: "RobotoSlabRegular";
+    min-height: 60px;
+    background-color: #1b1d22;
+
+}
+
+#upstairs {
+	margin: 14px 0 0 30px;
+	font-size: 16px;
+    border: 1px solid white;
+    width: 110px;
+    background-color: #1b1d22;
+    height: 36px;
+    color: white;
+    border-radius: 4px;
+	
+}
+
+footer p {
+	margin-left: 20px;
+	display: inline-block;
+} 
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+		/*секция 1*/
+
+#one {
+	margin-top: -50px;
+	background-image: url(../img/fonre.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+    height: 800px;
+    box-shadow: inset 1280px 0px 0px 0px rgba(0,0,0,.6);
+}
+
+#logo {
+	width: 18%;
+	font-family: "Epson1";
+	color: #fff;
+	font-size: 2em;
+	padding-left: 2%;
+	height: 100%;
+	line-height: 55px;
+	float: left;
+}
+
+#vt {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+
+ul#vt > li {
+    padding-right: 10px;
+    padding-left: 5px;
+    height: 100%;
+    line-height: 50px;
+    display: inline-block;
+    font-family: "InfinityRegular";
+	font-size: 24px;
+	list-style-type: none;
+	color: #FFFFFF; 
+}
+
+ul#vt > li:hover { background-color: rgba(255,255,255,.20); }
+
+ul#vt li:nth-child(2n):hover { background-color: rgba(255,255,255,0); }
+
+
+#nav-bar{
+	display: none; 
+	height: 45px;
+	width: 10%;
+	float: right;
+	padding-top: 5px;
+	padding-right: 15px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#vb {
+	width: 100%;
+	height: 124px;
+	background: rgba(0,0,0,.6);
+	font-family: "InfinityRegular";
+	font-size: 24px;
+	display: block;
+	visibility: hidden;
+	list-style-type: none;
+}
+
+ul#vb > li {
+	border: 2px solid rgba(255,255,255,.20);
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+
+} 
+
+#Section-one {
+	height: 313px;
+	width: 40%;
+	float: left;
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+}
+
+aside#Section-one > div{
+	float: right;
+	width: 290px;
+	font-family: "ImpactRegular";
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 75px;
+	line-height: 71px;
+	padding: 20px 20px 0px 25px;
+}
+
+#Section-two {
+	height: 313px;
+	width: 40%;
+	float: right;
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+}
+
+aside#Section-two > div{
+	float: left;
+	width: 290px;
+	font-family: "ImpactRegular";
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 20px 0px 0px 25px;
+}
+
+#social-network {
+	width: 100%;
+	height: 35px;
+}
+
+div#social-network > i {
+	color: rgba(255,255,255, 1);
+	font-size: 25px;
+	height: 35px;
+	width: 40px;
+	float: left;
+	margin: 5px 5px 0 0;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	line-height: 35px;
+	text-align: center;
+}
+
+		/*секция 2*/
+
+#two {
+	width: 100%;
+    height: 620px;
+    background: #E7E7E7;
+    position: relative;
+}
+
+#meny {
+	height: 620px;
+	width: 100%;
+}
+
+#shadow-meny-top{
+	height: 60px;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0px 20px 40px -26px #000;
+}
+
+#menu-nav {
+	color: rgb(44,44,44);
+	font-size: 20px;
+	font-family: "RobotoSlabRegular";
+	text-align: center;
+	line-height: 60px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+ul#menu-nav > li { display: inline-block; }
+
+#dishes {
+	height: 480px;
+	width: 75%;
+	margin: 0 auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-top: 25px;
+	
+}
+
+		/* шаблон блюда */
+
+div#dishes > div  {
+	height: 210px;
+	width: 160px;
+	background-color: #FFFFFF;
+	float: left;
+	background-position: center top;
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px 4px 0px rgba(0,0,0,.15);
+	background-size: 100%;
+	margin: 10px 5px 10px 5px;
+}
+
+#description {
+	width: 100%;
+	height: 83px;
+	margin-top: 127px;
+	color: rgb(44,44,44);
+	font-size: 19px;
+	font-family: "RobotoSlabRegular";
+	text-align: center;
+	line-height: 21px;
+}
+
+#price {
+	font-size: 18px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/price.png);
+}
+
+#shadow-meny-bottom{
+	height: 60px;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0px -20px 40px -26px #000;
+}
+
+
+		/*секция 3*/
+
+#three {
+	box-shadow: inset 0px 20px 40px -26px #000;
+	background-size: 50%;
+	background-image: url(../img/background-dosk.jpg);
+	height: 430px;
+	width: 100%;
+}
+
+#review {
+	height: 330px;
+	margin-top: 100px;
+	width: 40%;
+	float: left;
+}
+
+#form {
+	height: 430px;
+	width: 60%;
+	float: left;
+}
+
+#form-contact {
+	height: 330px;
+    margin: 0 20px 0 20px;
+    margin-top: 100px;
+	position: relative;
+}
+
+input[type="text"] {
+	text-align: center;
+	height: 55px;
+	width: 35%;
+	float: left;
+	margin-top: 10px;
+	border: 1px solid #BABABA;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 20px;
+
+}
+
+input[type="text"]:nth-child(2) {
+	margin-top: 0;
+}
+
+input[type="text"]:nth-child(1) {
+	margin-top: 0;
+}
+
+#mess{
+	height: 260px;
+	width: 63.5%;
+	float: right;
+	margin-left: 1.5%;
+}
+
+input[type="submit"] {
+	height: 52px;
+	width: 35%;
+	border: none;
+	float: left;
+	margin-top: 23px;
+	border-radius: 4px;
+	background: #4D4D4D;
+	color: #fff;
+	font-size: 20px;
+	font-family: "RobotoSlabRegular";
+}
+
+
+#itemone {
+	box-shadow: 2px 2px 4px 0px rgba(0,0,0,.15);
+    border-radius: 4px;
+    margin: 0 20px 10px 20px;
+    background-color: white;
+    min-height: 100px;
+}
+
+#itemone p {
+    padding-left: 10px;
+}
+
+#itemone img {
+	border-radius: 4px 0 0 4px;
+	width: 100px;
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+
+
+

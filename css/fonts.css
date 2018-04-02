@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "InfinityRegular";
+    src: url("../fonts/InfinityRegular/InfinityRegular.eot");
+    src: url("../fonts/InfinityRegular/InfinityRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InfinityRegular/InfinityRegular.woff") format("woff"),
+    url("../fonts/InfinityRegular/InfinityRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family:"Epson1";
+	src:url(../fonts/Epson1.TTF);
+	font-style: normal;
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: "ImpactRegular";
+    src: url("../fonts/ImpactRegular/ImpactRegular.eot");
+    src: url("../fonts/ImpactRegular/ImpactRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ImpactRegular/ImpactRegular.woff") format("woff"),
+    url("../fonts/ImpactRegular/ImpactRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoSlabRegular";
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
